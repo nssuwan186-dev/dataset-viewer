@@ -2,7 +2,7 @@
 # Build with: docker build --target <service_name> -t <tag> .
 
 # Base stage with shared setup
-FROM python:3.12.11-slim AS common
+FROM python:3.14.3-slim AS common
 
 # System dependencies
 RUN apt-get update \
