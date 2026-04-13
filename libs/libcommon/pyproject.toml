@@ -8,21 +8,21 @@ license = "Apache-2.0"
 [tool.poetry.dependencies]
 python = "3.12.11"
 appdirs = "^1.4.4"
-cryptography = "^43.0.1"
+cryptography = "^46.0.7"
 datasets = {version = "4.1.1", extras = ["vision"]}
 duckdb = "^1.2.2"
 environs = "^14.3.0"
-filelock = "^3.18.0"
+filelock = "^3.20.3"
 fsspec = {version = "2024.3.1", extras = ["s3"]}
 huggingface-hub = {version = "^0.31.0", extras = ["hf-transfer"]}
 mongo-types = "0.15.1"
 mongoengine = "^0.29.1"
 networkx = "^3.0"
 numpy = "^2.3.3"
-orjson = "^3.9.15"
+orjson = "^3.11.6"
 pandas = "^2.2.0"
 pdfplumber = ">=0.11.4"
-pillow = "^10.3.0"
+pillow = "^12.2.0"
 polars = "1.31.0"  # 1.33.1 has issues with datetimes
 psutil = "^7.1.0"
 pyarrow = "^21.0.0"
