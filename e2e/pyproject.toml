@@ -14,9 +14,9 @@ bandit = "^1.7.4"
 huggingface-hub = {version = "^0.28.0", extras = ["hf-transfer"]}
 mypy = "^1.10.0"
 pip-audit = "^2.7.3"
-pytest = "^8.2.2"
+pytest = "^9.0.3"
 pytest-memray = "^1.6.0"
-requests = "^2.32.2"
+requests = "^2.33.0"
 ruff = "^0"
 types-requests = "^2.28.11"
 
